@@ -1,11 +1,9 @@
 import React from "react";
 import styles from "./About.module.css";
 // import aboutImage from "../../assets/about/abhiRemove.png";
-// import aboutImage from "D:/web dev/FRONTEND PROJECT/REACT-PORTFOLIO/portfolio/src/assets/hero/abhiRem.png";
+import abhiRem from "../../assets/hero/abhiRem.png";
 import cursorIcon from "../../assets/about/cursorIcon.png";
 import serverIcon from "../../assets/about/serverIcon.png";
-
-import abhiRem from '../../assets/hero/abhiRem.png';
 
 
 export const About = () => {
@@ -14,9 +12,9 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={aboutImage}
+          src={abhiRem}
           alt="Me sitting with a laptop"
-          className={styles.abhiRem}
+          className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
