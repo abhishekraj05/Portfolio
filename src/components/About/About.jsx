@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.css";
-// import aboutImage from "../../assets/about/abhiRemove.png";
 import abhiRem from "../../assets/hero/abhiRem.png";
 import cursorIcon from "../../assets/about/cursorIcon.png";
 import serverIcon from "../../assets/about/serverIcon.png";

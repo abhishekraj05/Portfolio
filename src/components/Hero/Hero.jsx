@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import hero from "D:/web dev/FRONTEND PROJECT/REACT-PORTFOLIO/portfolio/src/assets/hero/abhiRem.png";
+import abhiRem from "../../assets/hero/abhiRem.png";
 
 export const Hero = () => {
   return (
@@ -16,7 +16,7 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <img src={hero} alt="hero image of me" className={styles.heroimg} />
+      <img src={abhiRem} alt="hero image of me" className={styles.heroimg} />
       <div className={styles.topBlur} />
       <div className={styles.BottomBlur} />
     </section>
