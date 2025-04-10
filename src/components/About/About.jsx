@@ -1,9 +1,12 @@
 import React from "react";
 import styles from "./About.module.css";
 // import aboutImage from "../../assets/about/abhiRemove.png";
-import aboutImage from "D:/web dev/FRONTEND PROJECT/REACT-PORTFOLIO/portfolio/src/assets/hero/abhiRem.png";
+// import aboutImage from "D:/web dev/FRONTEND PROJECT/REACT-PORTFOLIO/portfolio/src/assets/hero/abhiRem.png";
 import cursorIcon from "../../assets/about/cursorIcon.png";
 import serverIcon from "../../assets/about/serverIcon.png";
+
+import abhiRem from '../../assets/hero/abhiRem.png';
+
 
 export const About = () => {
   return (
@@ -13,7 +16,7 @@ export const About = () => {
         <img
           src={aboutImage}
           alt="Me sitting with a laptop"
-          className={styles.aboutImage}
+          className={styles.abhiRem}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
