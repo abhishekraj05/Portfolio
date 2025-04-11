@@ -32,14 +32,13 @@ export const Experience = () => {
 
           <li className={styles.historyItem}>
 
-            {/* <img
+            <img
 
-              src="./src/assets/history/airbnb.jpg"
+              src="../../assets/history/airbnb.jpg"
 
               alt="Personal Project logo"
 
-            /> */}
-            <img src="https://drive.google.com/file/d/1JYAYAuzLNoW_cGxaPy6W7lHAAxYy7V92/view?usp=sharing" alt="project_img" />  // google drive img link
+            />
 
             <div className={styles.historyItemDetails}>
 

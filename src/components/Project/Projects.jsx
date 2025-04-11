@@ -6,7 +6,7 @@ export const Projects = () => {
   const project = {
     title: "Airbnb Clone",
     description: "Developed a full-stack Airbnb clone ",
-    imageSrc: "./src/assets/projects/proj.jpg",
+    imageSrc: "../../assets/projects/proj.jpg",
     skills: [],
     demoLink: "https://airnibs.onrender.com/listing", // You can update this to the real demo if available
     sourceLink: "https://github.com/abhishekraj05/abhishek555272" //update your own 
