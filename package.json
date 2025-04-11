@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://abhishekraj05.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,11 +9,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite preview --port $PORT --host"
   },
   "dependencies": {
     "@fontsource/outfit": "^5.2.5",
     "@fontsource/roboto": "^5.2.5",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

@@ -9,4 +9,5 @@ export default defineConfig({
       localsConversion: "camelCase",
     },
   },
+  base: "/Portfolio",
 });
