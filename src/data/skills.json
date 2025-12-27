@@ -1,26 +1,19 @@
 [
-    {
-      "title": "HTML",
-      "imageSrc": "html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "css.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "react.png"
-    },
-    {
-      "title": "Node",
-      "imageSrc": "node.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "mongodb.png"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "figma.png"
-    }
-  ]
+  { "title": "HTML", "imageSrc": "html.png" },
+  { "title": "CSS", "imageSrc": "css.png" },
+  { "title": "JavaScript", "imageSrc": "js.png" },
+  { "title": "C++ (OOPS)", "imageSrc": "c-.png" },
+  { "title": "Core Java", "imageSrc": "java.png" },
+
+  { "title": "React", "imageSrc": "react.png" },
+  { "title": "Tailwind CSS", "imageSrc": "windtail.png" },
+  { "title": "Bootstrap", "imageSrc": "bootstrap.png" },
+  { "title": "Express.js", "imageSrc": "express.webp" },
+
+  { "title": "Node.js", "imageSrc": "node.png" },
+  { "title": "MongoDB", "imageSrc": "mongodb.png" },
+  { "title": "MySQL", "imageSrc": "sql-server.png" },
+
+  { "title": "Git", "imageSrc": "git.png" },
+  { "title": "GitHub", "imageSrc": "github.png" }
+]

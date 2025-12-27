@@ -9,5 +9,5 @@ export default defineConfig({
       localsConversion: "camelCase",
     },
   },
-  base: "/Portfolio",
+  base: "/Portfolio",  // paste the get hub repositry link
 });

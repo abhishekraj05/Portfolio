@@ -5,63 +5,87 @@
   margin-top: 120px;
   background-color: var(--color-secondary);
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  justify-content: space-between;
+  width: 100%;                 /* 100vw hata diya */
+  padding: 48px 10%;
+  gap: 20px;
+  box-sizing: border-box;
 }
 
+/* LEFT TEXT */
 .text h2 {
-  font-size: 80px;
+  font-size: 48px;             /* pehle 80px */
   font-weight: 700;
-  letter-spacing: 4px;
-}
-
-.text p {
-  font-size: 40px;
-  font-weight: 400;
   letter-spacing: 2px;
 }
 
+.text p {
+  font-size: 20px;             /* pehle 40px */
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* LINKS LIST */
 .links {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 18px;
+  padding: 0;
 }
 
+/* EMAIL WRAP FIX */
+.email {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* SINGLE LINK ROW */
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
 }
 
+.link img {
+  width: 32px;
+  height: 32px;
+}
+
+/* LINK TEXT */
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 18px;             /* pehle 30px */
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
 }
 
+/* RESUME ICON */
 .resume {
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
 }
 
+/* MOBILE RESPONSIVE */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 6%;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .text h2 {
+    font-size: 36px;
+  }
+
+  .text p {
+    font-size: 18px;
   }
 
   .links {

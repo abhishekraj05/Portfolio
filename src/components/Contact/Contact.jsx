@@ -1,12 +1,15 @@
 import React from "react";
 
 import styles from "./Contact.module.css";
-
 import emailIcon from "../../assets/contact/emailIcon.png";
 import linkedinIcon from "../../assets/contact/linkedinIcon.png";
 import githubIcon from "../../assets/contact/githubIcon.png";
 import resume from "../../assets/contact/resume.jpg";
 
+<script>
+  const eml = document.querySelector(".email");
+  eml.style.color = "purple";
+</script>
 
 export const Contact = () => {
   return (
@@ -18,7 +21,7 @@ export const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={emailIcon} alt="Email icon" />
-          <a href="abhishekraj995554@gmail.com">abhishekraj995554@gmail.com</a>
+          <a className={styles.email} href="abhishekraj995554@gmail.com">abhishekraj995554@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
@@ -39,3 +42,5 @@ export const Contact = () => {
     </footer>
   );
 };
+
+

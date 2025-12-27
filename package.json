@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://abhishekraj05.github.io/Portfolio/",
+  "homepage": "https://abhishekraj05.github.io/Portfolio/",  
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist", 
     "start": "vite preview --port $PORT --host"
   },
   "dependencies": {
