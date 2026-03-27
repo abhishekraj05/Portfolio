@@ -14,19 +14,19 @@ const skillImages = import.meta.glob(
 export const Experience = () => {
   const experienceItems = [
     {
-      title: "AI Resume Builder | Full Stack Application",
-      period: "2025 - Present",
+      title: "Social Media Platform | Full Stack Application (MERN)",
+      period: "2025",
       details: [
-        "Built an AI-powered resume generator using React, Node.js, and MongoDB.",
-        "Generates ATS-friendly professional resumes instantly.",
+        "Developed a scalable MERN-based social media platform with real-time interactions and secure authentication.",
+        "Designed responsive UI and optimized backend APIs for better performance."
       ],
     },
     {
-      title: "CRM (Customer Relationship Management) | Full Stack Web App",
-      period: "In Progress",
+      title: "News Portal (TheLocalMirror) | Full Stack Web Application (Next.js, MongoDB, Express.js, Node.js)",
+      period: "2025",
       details: [
-        "Team project for managing clients, leads, and workflow automation.",
-        "Built using React, Node.js, Express.js, and MongoDB.",
+        "Developed an SEO-optimized news platform with fast rendering and structured content delivery.",
+        "Improved performance and scalability using modern full-stack technologies."
       ],
     },
     {

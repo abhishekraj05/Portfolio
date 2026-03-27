@@ -22,11 +22,11 @@ export const Projects = () => {
     },
 
     {
-      title: "CRM Web Application  (In Progress)",
+      title: "News Portal — TheLocalMirror",
 
-      imageSrc: projectImages["../../assets/Projectt/crm.png"],
+      imageSrc: projectImages["../../assets/Projectt/news.png"],
       skills: ["React", "Express", "Node.js", "MongoDB"],
-      sourceLink: "https://github.com/infocodrexa/CodRexa-CRM",
+      sourceLink: "https://github.com/infocodrexa/news",
     },
 
     {
